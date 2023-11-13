@@ -19,7 +19,7 @@ const Hero = () => {
             </span>
             <br></br>
             <TypeAnimation
-              sequence={["Web Dev", 1200, "Mobile Dev", 1200]}
+              sequence={["Web Dev", 1400, "Mobile Dev", 1400]}
               wrapper="span"
               speed={50}
               repeat={Infinity}

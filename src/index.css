@@ -7,6 +7,14 @@
   font-family: "Inter", sans-serif;
 }
 
+a {
+  cursor: pointer;
+}
+
+nav {
+  box-shadow: rgba(0, 0, 0, 0.2) 2px 2px 3.2px;
+}
+
 .gradient {
   background-color: whitesmoke;
 }
