@@ -14,7 +14,7 @@ const Hero = () => {
               textOverflow: "ellipsis",
             }}
           >
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-500 to-blue-500">
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-500 to-blue-700">
               Hello, I'm Vedat
             </span>
             <br></br>
