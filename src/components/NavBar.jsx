@@ -1,6 +1,7 @@
 import { useState } from "react";
 import React from "react";
 import { RoughNotation } from "react-rough-notation";
+import { Link } from "react-scroll";
 
 const NavBar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -12,9 +13,39 @@ const NavBar = () => {
     <>
       <nav className="w-1/4 flex justify-end">
         <div className="hidden w-full md:flex justify-between">
-          <a>about me</a>
-          <a>skills</a>
-          <a>projects</a>
+          <Link
+            className="nav-link nav-link-fade-up"
+            activeClass="active"
+            to="about"
+            spy={true}
+            smooth={true}
+            offset={-80}
+            duration={30}
+          >
+            about me
+          </Link>
+          <Link
+            className="nav-link nav-link-fade-up"
+            activeClass="active"
+            to="skills"
+            spy={true}
+            smooth={true}
+            offset={-80}
+            duration={30}
+          >
+            skills
+          </Link>
+          <Link
+            className="nav-link nav-link-fade-up"
+            activeClass="active"
+            to="projects"
+            spy={true}
+            smooth={true}
+            offset={-80}
+            duration={30}
+          >
+            projects
+          </Link>
         </div>
         <div className="md:hidden">
           <button onClick={toggleNav}>
@@ -53,10 +84,40 @@ const NavBar = () => {
         </div>
       </nav>
       {isOpen && (
-        <div className="flex flex-col gap-4 py-4 basis-full items-center z-10">
-          <a>about me</a>
-          <a>skills</a>
-          <a>projects</a>
+        <div className="left-0 right-0 bg-white flex flex-col gap-4 mt-48 pb-12 basis-full items-center absolute">
+          <Link
+            activeClass="active"
+            to="about"
+            spy={true}
+            smooth={true}
+            offset={-65}
+            duration={30}
+            onClick={toggleNav}
+          >
+            about me
+          </Link>
+          <Link
+            activeClass="active"
+            to="skills"
+            spy={true}
+            smooth={true}
+            offset={-65}
+            duration={30}
+            onClick={toggleNav}
+          >
+            skills
+          </Link>
+          <Link
+            activeClass="active"
+            to="projects"
+            spy={true}
+            smooth={true}
+            offset={-65}
+            duration={30}
+            onClick={toggleNav}
+          >
+            projects
+          </Link>
         </div>
       )}
     </>

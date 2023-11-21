@@ -5,6 +5,17 @@
 
 * {
   font-family: "Inter", sans-serif;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 a {
@@ -13,6 +24,39 @@ a {
 
 header {
   box-shadow: rgba(0, 0, 0, 0.2) 2px 2px 3.2px;
+}
+
+h3 {
+  color: rgb(251, 156, 171);
+}
+
+.nav-link,
+.active {
+  display: inline-block;
+  position: relative;
+}
+
+.nav-link::after {
+  transition: 150ms;
+  height: 4px;
+  content: "";
+  display: block;
+  position: absolute;
+  background-color: pink;
+  bottom: 10;
+  border-radius: 8px;
+}
+
+.nav-link-fade-up::after {
+  width: 100%;
+  bottom: 15px;
+  opacity: 0;
+}
+.active::after,
+.nav-link-fade-up:focus::after,
+.nav-link-fade-up:hover::after {
+  bottom: -5px;
+  opacity: 1;
 }
 
 .gradient {
