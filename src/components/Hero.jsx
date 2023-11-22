@@ -1,6 +1,7 @@
 import React from "react";
 import image from "../assets/temp3d.png";
 import { TypeAnimation } from "react-type-animation";
+import pdf from "../assets/Vedat_Daglar_Resume_03-11-2023-17-53-23.pdf";
 const Hero = () => {
   return (
     <section id="home" className="h-screen">
@@ -34,13 +35,16 @@ const Hero = () => {
               href="https://www.linkedin.com/in/vedat-duha-daglar/"
               target="_blank"
             >
-              <button className="px-6 py-3 w-full sm:w-fit text-white rounded-full mr-4 bg-gradient-to-r from-cyan-500 to-blue-500 hover:bg-red-200">
+              <button className="px-6 py-3 w-full sm:w-fit text-white rounded-full mr-4 bg-gradient-to-r from-cyan-500 to-blue-500">
                 Contact
               </button>
             </a>
-            <button className="px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-transparent  border border-black hover:border-pink mt-3">
-              Download CV
-            </button>
+
+            <a href={pdf} download={"Vedat_Daglar_Resume.pdf"}>
+              <button className="px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-transparent  border-2 border-black mt-3">
+                Download CV
+              </button>
+            </a>
           </div>
         </div>
         <div className="col-span-5 place-self-center mt-4 lg:mt-0">

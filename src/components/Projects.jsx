@@ -1,5 +1,5 @@
 import React from "react";
-
+import SkillBadge from "./SkillBadge";
 const Projects = () => {
   return (
     <section
@@ -9,6 +9,11 @@ const Projects = () => {
       <div className="w-full text-center text-4xl sm:text-2xl lg:text-6xl font-bold ">
         Projects
       </div>
+      <SkillBadge name={"React ⚛️"} color={"#61DBFB"} />
+      <SkillBadge name={"Tailwind CSS 🍃"} color={"cyan"} />
+      <SkillBadge name={"Chakra UI⚡"} color={"lime"} />
+      <SkillBadge name={"AI 🤖"} color={"red"} />
+      <SkillBadge name={"Google Maps API 🗺️"} color={"yellow"} />
     </section>
   );
 };

@@ -18,6 +18,10 @@ html {
   scroll-behavior: smooth;
 }
 
+section {
+  margin-bottom: 1rem;
+}
+
 a {
   cursor: pointer;
 }
