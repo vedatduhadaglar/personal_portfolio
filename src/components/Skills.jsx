@@ -24,7 +24,7 @@ const Skills = () => {
           variants={container}
           initial="hidden"
           animate={isInView ? "visible" : "hidden"}
-          className="grid grid-cols-2 w-full gap-y-12 sm:grid-cols-2 lg:grid-cols-4 place-items-center"
+          className="grid grid-cols-2 w-full gap-x-8 gap-y-12 sm:grid-cols-2 lg:grid-cols-4 place-items-center"
         >
           {skills.map((skill, index) => (
             <motion.div key={index} variants={item}>

@@ -3,12 +3,9 @@ import React from "react";
 const SkillBadge = ({ color, name }) => {
   return (
     <span
+      className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2"
       style={{
         backgroundColor: color,
-        borderRadius: "14px",
-        padding: "6px 10px",
-        color: "black",
-        marginRight: "4px",
       }}
     >
       {name}

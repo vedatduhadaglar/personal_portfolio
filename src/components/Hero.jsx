@@ -1,10 +1,13 @@
 import React from "react";
 import image from "../assets/temp3d.png";
 import { TypeAnimation } from "react-type-animation";
+import * as THREE from "three";
+import { GLTFLoader } from "three/addons/loaders/GLTFLoader.js";
+
 import pdf from "../assets/Vedat_Daglar_Resume_03-11-2023-17-53-23.pdf";
 const Hero = () => {
   return (
-    <section id="home" className="h-screen">
+    <section id="home">
       <div className="grid grid-cols-1 sm:grid-cols-12 lg:px-6">
         <div className="col-span-7 place-self-center text-center sm:text-left">
           <h1

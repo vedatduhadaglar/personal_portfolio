@@ -14,7 +14,7 @@ export const container = {
     scale: 1,
     transition: {
       delayChildren: 0.3,
-      staggerChildren: 0.2,
+      staggerChildren: 0.3,
     },
   },
 };
@@ -30,8 +30,8 @@ export const item = {
 export const skills = [
   { img: react, name: "React.js/Native" },
   { img: vue, name: "Vue.js" },
-  { img: js, name: "ES6 JavaScript" },
-  { img: tailwind, name: "Tailwind CSS" },
+  { img: js, name: "JavaScript" },
+  { img: tailwind, name: "Tailwind" },
   { img: node, name: "Node.js" },
   { img: java, name: "Java" },
   { img: postgres, name: "PostgreSQL" },
