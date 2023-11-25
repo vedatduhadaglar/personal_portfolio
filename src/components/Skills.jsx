@@ -13,12 +13,12 @@ const Skills = () => {
   return (
     <section
       id="skills"
-      className="w-full h-screen border-t-1 lg:px-6 border-gray border-b-2"
+      className="w-full h-screen border-t-1 lg:px-6 border-gray border-b-2 pt-12 lg:pt-0"
     >
       <div className="w-full text-center text-4xl sm:text-2xl lg:text-6xl font-bold mb-4 lg:mb-12">
         My Skills
       </div>
-      <div className="container mx-auto flex w-4/5">
+      <div className="container mx-auto flex w-4/5 items-center">
         <motion.div
           ref={ref}
           variants={container}

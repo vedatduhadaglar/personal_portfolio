@@ -39,10 +39,6 @@ header {
   box-shadow: rgba(0, 0, 0, 0.2) 2px 2px 3.2px;
 }
 
-h3 {
-  color: rgb(251, 156, 171);
-}
-
 .nav-link,
 .active {
   display: inline-block;
