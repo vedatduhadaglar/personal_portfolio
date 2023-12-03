@@ -34,7 +34,7 @@ const projectsData = [
       { name: "Firebase 🔥", color: "yellow" },
       { name: "Excel 🗓️", color: "aquamarine" },
       { name: "SvelteKit 🍊", color: "orange" },
-      { name: "Chakra UI 💚", color: "coral" },
+      { name: "Node.js ⚙️", color: "#00FF7F" },
     ],
   },
 ];
