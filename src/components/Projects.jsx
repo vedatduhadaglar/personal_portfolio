@@ -25,7 +25,7 @@ const projectsData = [
   {
     name: "Dateion 🗓️",
     description:
-      "An application where employees could schedule when they would be in office during the COVID pandemic. Admin users can add or remove people from the schedule. Includes authentication and Excel export.",
+      "A scheduling application where employees could declare when they would be in office during the COVID pandemic. Admin users can add or remove people from the schedule. Includes authentication and Excel export.",
     img: dateion,
     url: "",
     skills: [
