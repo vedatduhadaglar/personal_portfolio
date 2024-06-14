@@ -4,7 +4,7 @@ import { TypeAnimation } from "react-type-animation";
 import * as THREE from "three";
 import { GLTFLoader } from "three/addons/loaders/GLTFLoader.js";
 
-import pdf from "../assets/Vedat_Daglar_Resume_03-11-2023-17-53-23.pdf";
+import pdf from "../assets/VedatDaglar_Resume.pdf";
 const Hero = () => {
   return (
     <section id="home">
