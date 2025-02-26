@@ -11,7 +11,7 @@ const About = () => {
         <div className="col-span-7 px-4">
           <h3 className="text-4xl font-bold text-center">About Me</h3>
           <p className="mt-3 ">
-            I'm a 22 year old software engineering student from Turkey. During
+            I'm a 23 year old software engineering student from Turkey. During
             my university education, I had the chance to try out the different
             fields of software engineering but app development turned out to be
             my favourite. I built apps for external clients with teams and I
